@@ -1,0 +1,23 @@
+CONTAINERS
+list - push_back,emplace_back,push_front, emplace_front,begin,end,rbegin,rend,clear,insert ,size,swap
+Deque - push_back,emplace_back,push_front,emplace_front,pop_back,pop_front,back,front
+Stack(LIFO) - push,emplace,printing top,pop,size,isempty,swap
+Queue(FIFO) - push,emplace,back,front,pop
+Pritority Queue(stores in sorted order) - push,emplace,top,pop, also there is way to maintian the min heap
+Set (Sorted,Unique) = insert,find{if element is not present returns the a pointer pointing to the next location of the last element},erase,count,#learn upper bound and Lower bound
+Multiset(Sorted) = insert,erase(erases all the element when passed by value but passed by refernce onyl deletes the particular element)
+Unorder Sorted (Unique not in order)- lower and upper bound does not work
+
+
+Map - uses a key and its corresponding value
+    keys are unique and sorted
+
+Multimap
+unorder map
+
+
+SORT - sort (start pointer,end pointer , comparison logic)
+biulin_popcount - how many 1 are there in the binary representation of the number;
+next_permutations   -   all the permutations of the given number
+
+max_element - return the address of the max element
